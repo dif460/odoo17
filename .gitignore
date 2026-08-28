@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+*.whl
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Odoo
+*.log
+*.pid
+*.lock
+odoo.conf
+!odoo.conf.example
+
+# Database
+*.dump
+*.sql
+
+# Compiled
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
