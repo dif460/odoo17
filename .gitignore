@@ -1,8 +1,11 @@
 # Python
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.pyd
+*.pyo
 *.egg
 *.egg-info/
 dist/
@@ -11,6 +14,11 @@ eggs/
 *.whl
 pip-log.txt
 pip-delete-this-directory.txt
+
+# Python tool caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtual environment
 venv/
@@ -26,18 +34,36 @@ env/
 
 # Odoo
 *.log
+*.log.err
+*.log.out
 *.pid
 *.lock
 odoo.conf
 !odoo.conf.example
+odoo1.conf
+odoo-bin
+data/
+data_cc/
+
+# Odoo 启动/测试日志（txt 后缀）
+boot_*.txt
+e2e_*.txt
 
 # Database
 *.dump
 *.sql
+*.backup
+*.bak
 
-# Compiled
+# Compiled / bytecode
 *.pyc
-*.pyo
+
+# Temporary one-off scripts (pattern: _xxx.py)
+_*.py
+
+# Temp files
+*.tmp
+*.temp
 
 # OS
 .DS_Store
