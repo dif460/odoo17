@@ -51,7 +51,7 @@ e2e_*.txt
 
 # Database
 *.dump
-*.sql
+
 *.backup
 *.bak
 
